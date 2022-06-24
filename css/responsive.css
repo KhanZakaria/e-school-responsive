@@ -1,0 +1,173 @@
+
+/*--------Xlg---------*/
+@media (max-width:1400px){
+
+}
+
+/*--------lg---------*/
+@media (max-width:1200px){
+    .container {
+        max-width: 1000px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .feature h3 {
+        font-size: 19px;
+    }
+    .feature span {
+        font-size: 14px;
+    }
+    .course h3 {
+        font-size: 20px;
+    }
+    .course span {
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+    .col_1_3 {
+        padding: 0 14px;
+    }
+    .course strong {
+        font-size: 14px;
+    }
+}
+
+/*--------md---------*/
+@media (max-width:992px){
+    .container {
+        max-width: 900px;
+    }
+    h1 {
+        font-size: 42px;
+    }
+    .textContainer p {
+        font-size: 14px;
+    }
+    .feature h3 {
+        font-size: 16px;
+    }
+    .feature span {
+        font-size: 12px;
+    }
+    .course {
+        min-height: 400px;
+    }
+    .course h3 {
+        font-size: 14px;
+    }
+    .course span {
+        font-size: 12px;
+    }
+    .btn {
+        font-size: 12px;
+    }
+    h2 {
+        margin: 30px 0px;
+    }
+    .col_1_3 {
+        padding: 0 14px;
+    }
+    .course strong {
+        font-size: 12px;
+    }
+    .reviewText p {
+        font-size: 15px;
+    }
+    .footerContent p {
+        font-size: 14px;
+    }
+    .footerMenu ul li a {
+        font-size: 14px;
+    }
+    .copyright p {
+        font-size: 14px;
+    }
+}
+
+/*--------sm---------*/
+@media (max-width:768px){
+    h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .imageContainer img {
+        max-width: 85%;
+    }
+    .featureSection {
+        padding: 20px 0;
+    }
+    .course {
+        padding: 15px;
+        min-height: 380px;
+    }
+    .btn {
+        padding: 12px 20px;
+    }
+    .course ul {
+        margin-top: 15px;
+    }
+    .col_1_3 {
+        padding: 0 5px;
+    }
+    .col_1_4 {
+        padding: 0px 10px;
+    }
+    .reviewText p {
+        width: 90%;
+    }
+    .course ul li {
+        padding: 5px 0;
+    }
+}
+
+/*--------xsm---------*/
+@media (max-width:575px){
+    h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .textContainer p {
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+    .col_1_4 {
+        flex-basis: 50%;
+        margin: 10px 0;
+    }
+    .feature {
+        padding: 30px 0px;
+    }
+    .col_1_3 {
+        flex-basis: 100%;
+        margin: 10px 100px;
+    }
+    .course {
+        text-align: center;
+    }
+    .customer {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .customer img {
+        margin: 0;
+    }
+    .reviewText {
+        flex-basis: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .col_4_10 {
+        flex-basis: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .col_6_10 {
+        flex-basis: 100%;
+        padding: 0 10px;
+    }
+}

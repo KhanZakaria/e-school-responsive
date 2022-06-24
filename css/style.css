@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #585859;
+    background-color: #FFFFFF;
+}
+
+/*-----------------------------------------------Global Css calling -------------------------------*/
+.container {
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0px;
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+
+a {
+    text-decoration: none;
+    color:#000000;
+    transition: 0.3s ease;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    display: inline-block;
+    background: #21B573;
+    border-radius: 33px;
+    padding: 12px 28px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #269b67;
+    color: #fff5f5;
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.col_1_3 {
+    flex-basis: 33.33%;
+    padding: 0 25px;
+}
+
+.col_1_4 {
+    flex-basis: 25%;
+    padding: 0px 30px;
+}
+
+.col_4_10 {
+    flex-basis: 40%;
+}
+
+.col_6_10 {
+    flex-basis: 60%;
+}
+
+/*----------------------------------------------Header Section-------------------------------*/
+header {
+    background: #F0FFF0;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    padding: 30px 0;
+}
+
+nav .logo {
+    flex-basis: 25%;
+}
+
+nav .logo a {
+    cursor: pointer;
+}
+
+nav .logo a img {
+    display: block;
+    width: 195px;
+}
+
+nav ul {
+    display: flex;
+    flex-basis: 75%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul li {}
+
+nav ul li a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 5px 15px;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #21B573;
+    cursor: pointer;
+}
+
+
+
+/*----------------------------------------------banner Section-------------------------------*/
+.banner {
+    padding: 30px 0;
+    min-height: 80vh;
+}
+.banner h1{
+    max-width: 405px;
+    margin-bottom: 20px;
+}
+.banner .btn {
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.textContainer {
+    flex-basis: 50%;
+}
+
+.textContainer h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FD511A;
+    margin-bottom: 10px;
+}
+
+.textContainer span {
+    color: #21B573;
+}
+
+.textContainer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+.imageContainer {
+    flex-basis: 50%;
+}
+
+.imageContainer img {
+    max-width: 100%;
+}
+
+
+/*----------------------------------------------feature Section-------------------------------*/
+
+.featureSection {
+    padding: 50px 0;
+}
+
+.feature {
+    max-height: 250px;
+    background: #F8FFFB;
+    border-radius: 10px;
+    padding: 50px 15px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.feature:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px 0px #0000001A;
+    cursor: pointer;
+}
+
+.feature img {
+    height: 80px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #413960;
+}
+
+.feature span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #585859;
+}
+
+
+/*----------------------------------------------Course Section-------------------------------*/
+.courseSection {}
+
+.course {
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    border-radius: 18px;
+    min-height: 450px;
+    padding: 20px;
+}
+
+.course img {
+    width: 100%;
+}
+
+.course h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+}
+
+.course span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-bottom: 20px;
+}
+
+.course ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.course ul svg {
+    height: 20px;
+    width: 18px;
+    margin-right: 5px;
+}
+
+.course ul li {
+    display: flex;
+    align-items: center;
+}
+
+.course strong {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #585859;
+    ;
+}
+
+
+/*----------------------------------------------Testimonial Section-------------------------------*/
+.testimonialSection {
+    padding: 50px 0;
+}
+
+.customer {
+    flex-basis: 30%;
+    text-align: right;
+}
+
+.customer img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 0 50px 0 0;
+}
+
+.reviewText {
+    flex-basis: 70%;
+}
+
+.reviewText p {
+    width: 72%;
+}
+
+
+/*----------------------------------------------Footer Section-------------------------------*/
+footer {
+    background: #282531;
+    margin-top: 20px;
+}
+
+.footerColumn {
+    padding: 50px 0;
+}
+
+.footerContent {
+    color: #FFFFFF;
+    padding-right: 50px;
+}
+
+.footerContent p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footerMenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footerMenu ul li strong {
+    color: #fff5f5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.footerMenu ul li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.footerMenu ul li a:hover {
+    color: #21B573;
+    cursor: pointer
+}
+
+.copyright {
+    display: block;
+    text-align: center;
+}
+
+.copyright p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
