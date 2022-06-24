@@ -127,7 +127,7 @@
 
 /*--------xsm---------*/
 @media (max-width:575px){
-     nav {
+    nav {
         text-align: center;
         justify-content: center;
     }
@@ -143,6 +143,21 @@
     h1 {
         font-size: 28px;
         line-height: 40px;
+    }
+    .banner {
+        text-align: center;
+        padding: 30px 10px;
+    }
+    .textContainer {
+        flex-basis: 100%;
+        order: 2;
+    }
+    .imageContainer {
+        flex-basis: 100%;
+        order: 1;
+    }
+    .imageContainer img {
+        max-width: 100%;
     }
     .textContainer p {
         line-height: 25px;
@@ -186,7 +201,7 @@
     .reviewText p {
         width: 100%;
     }
-     .footerContent {
+    .footerContent {
          padding-right: 0px;
     }
     .footerMenu {
