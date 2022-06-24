@@ -127,6 +127,16 @@
 
 /*--------xsm---------*/
 @media (max-width:575px){
+     nav {
+        text-align: center;
+        justify-content: center;
+    }
+    nav ul {
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+        align-items: center;
+    }
     h1 {
         font-size: 28px;
         line-height: 40px;
