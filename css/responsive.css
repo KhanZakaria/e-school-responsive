@@ -186,4 +186,7 @@
     .reviewText p {
         width: 100%;
     }
+     .footerContent {
+         padding-right: 0px;
+    }
 }
